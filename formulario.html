@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+    <link href="estilos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container_formulario">
+        <div class="box_logo">
+          <h2> Insertar Logo </h2>
+        </div>
+        <div class="box_formulario">
+          <div class="box_contenido_formulario">
+            <form action="test.php" method="post">
+            <h4> Crear Cuenta </h4>
+              <label for="usuario" class="label_form"> Nombre </label>
+              <br>
+              <input id="usuario" type="text" name="nombre" required/>
+              <br>
+              <label for="email" class="label_form"> Dirección de Email </label>
+              <br>
+              <input id="email" type="email" name="direccionDeCorreo" required />
+              <br>
+              <label for="password" class="label_form"> Contraseña </label>
+              <br>
+              <input id="password" placeholder="Al menos 6 caracteres" autocomplete="off" type="password" name="password" required />
+              <br>
+              <label for="password" class="label_form"> Confirmar Contraseña </label>
+              <br>
+              <input id="confirm_password" type="password" name="confirm_password" autocomplete="off" required />
+              <br>
+              <button id="button_crear_cuenta" type="submit"> Crear Cuenta </button>
+              </form>
+            </div>
+            ¿Ya tienes una cuenta? <a href="login.html"> Iniciar Sesion </a>
+        </div>
+
+    </div>
+  </body>
+</html>
