@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+}
+#preheader img {
+  height: 5;
+  width: 30px;
+  border-radius: 50%;
+}
+#preheader {
+  display: flex;
+  justify-content: space-between;
+}
+#preheader a {
+  margin-right: 4px;
+}
+#logosredes {
+  width: 40vw;
+  display: flex;
+  justify-content: flex-start;
+}
+#main {
+  display: flex;
+  justify-content: flex-start;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+#categorias {
+  height: 50px;
+  width: 25vw;
+  background-color: grey;
+  text-align: center;
+}
+.categoria {
+  height: 50px;
+  width: 25vw;
+  background-color: lightgrey;
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+article img {
+  height: 100px;
+  width: 100px;
+}
