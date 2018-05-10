@@ -22,6 +22,10 @@ body {
   display: flex;
   justify-content: flex-start;
 }
+#botones a {
+  text-decoration: none;
+  color: black;
+}
 nav {
   display: flex;
   flex-direction: column;
@@ -37,6 +41,10 @@ nav {
   width: 25vw;
   background-color: lightgrey;
   text-align: center;
+}
+.categoria a {
+  text-decoration: none;
+  color: black;
 }
 section {
   display: flex;
