@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
-    <link href="estilos.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet"/>
   </head>
   <body>
     <div class="container_login">
       <header class="logop"> <a href="index.html"> <img src="imagenes/logop.png" alt="Logo_pricipal"></a> </header>
+      <h2> Iniciar Sesion </h2>
       <div class="box_login">
         <form action="test.php" method="post">
-          <h2> Iniciar Sesion </h2>
           <label for="email" class="label_login"> Dirección de Email </label>
           <br>
           <input id="email" type="email" name="direccionDeCorreo" required />
+          <br>
           <br>
           <label for="password" class="label_login"> Contraseña </label>
           <br>
           <input id="password" type="password" name="password" required />
           <br>
-          ¿Has olvidado tu contraseña?
+          <br>
+          <a href="#">¿Has olvidado tu contraseña?</a>
+          <br>
           <br>
           <button id="button_login" type="submit"> Iniciar Sesion </button>
           <br>
+          <br>
           <label for="button_recuerdame" > Recuérdame </label>
-          <input type="checkbox" name="button_recuerdame" id="button_recuerdame" value="button_recuerdame">
+          <input type="checkbox" name="button_recuerdame" id="button_recuerdame" value="button_recuerdame"/>
           <br>
         </div>
         <div class="box_login2">
-          <button type="button"  name="button"> <a href="formulario.html"> Crea tu Cuenta  </a></button>
+          ¿Todavia no creaste tu cuenta?
+          <button id="button_cuenta" type="button"  name="button"> <a href="formulario.html"> Crea tu Cuenta  </a></button>
         </div>
     </form>
     </div>
