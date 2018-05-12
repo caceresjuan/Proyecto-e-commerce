@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
+  width: 90%;
 }
 #preheader img {
   height: 5;
