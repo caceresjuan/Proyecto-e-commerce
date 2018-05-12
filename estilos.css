@@ -110,6 +110,9 @@ details {
   padding: 30px;
   font-family: sans-serif;
 }
+details:hover {
+  background: rgb(93, 124, 173);
+}
 details summary::-webkit-details-marker {
   color: rgb(242, 14, 14);
 }
