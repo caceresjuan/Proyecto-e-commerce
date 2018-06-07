@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  background-image: url("imagenes/fondo1.png");
 }
 #preheader img {
   height: 5;
@@ -30,19 +31,24 @@ header {
 nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 #categorias {
   height: 50px;
   width: 25vw;
   background-color: grey;
   text-align: center;
+
 }
 .categoria {
+  display: flex;
   height: 150px;
   width: 25vw;
   background-color: lightgrey;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+
 section {
   display: flex;
   justify-content: space-around;
